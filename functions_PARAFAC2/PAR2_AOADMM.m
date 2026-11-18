@@ -18,7 +18,7 @@ function [G,FacInit,out] = PAR2_AOADMM(Z,options,init)
         Z.miss = Zmiss_struct;
     end
 
-    if ~isfield(options,'iter_start_PAR2Bkconstraint')
+    if ~isfield(options,'iter_start_Bkconstraint')
         options.iter_start_Bkconstraint = 0;
     end
 
